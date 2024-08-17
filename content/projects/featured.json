@@ -1,8 +1,31 @@
 [
 	{
+		"project": "PROJECT NAME",
+		"url": "https://mysupplyco.com",
+		"repo": "Public",
+		"descriptionTitle": "DESCRIPTION TITLE",
+		"description": "DESCRIPTION Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/03.png" },
+			{ "key": "mock-stack",	"hover": "right",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
+			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
+		],
+		"stack": [
+			{ "key": "aftereffects", 	"name": "aftereffects",	"type": "devicon" },
+			{ "key": "dreamweaver",		"name": "dreamweaver", 	"type": "devicon" },
+			{ "key": "illustrator",		"name": "illustrator", 	"type": "devicon" },
+			{ "key": "photoshop",		"name": "photoshop", 	"type": "devicon" },
+			{ "key": "premierepro",		"name": "premierepro", 	"type": "devicon" },
+			{ "key": "xd",				"name": "xd", 			"type": "devicon" }
+			
+		]
+	},
+	{
 		"project": "My Supply Co.",
 		"url": "https://mysupplyco.com",
-		"repo": "Private",
+		"repo": "Public",
 		"descriptionTitle": "D2C & B2B ecommerce site and blog",
 		"description": "with elegant solutions for a complex codebase and customer journey.",
 		"imageOptions": [
@@ -13,7 +36,7 @@
 			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
 		],
 		"stack": [
-			{ "key": "php", 		"name": "PHP", 			"type": "devicon" },
+			{ "key": "photoshop", 	"name": "photoshop",	"type": "devicon" },
 			{ "key": "mysql", 		"name": "mySQL", 		"type": "devicon" },
 			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
 			{ "key": "jquery", 		"name": "jQuery", 		"type": "devicon" },

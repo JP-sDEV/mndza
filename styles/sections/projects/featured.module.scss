@@ -14,6 +14,8 @@
 	background-color: var(--background-dim2);
     border: 1px solid var(--primary-dark);
 
+	padding: 1rem;
+
 	.viewProject svg {
 		@include transition;
 	}
@@ -30,16 +32,17 @@
 			color: var(--neon-1-1);
 		}
 	}
+
 }
 
 
 .projectHeader  {
 	display: flex;
 	flex-direction: column;
-	gap: var(--size-3x);
+	gap: var(--size-1x);
 
 	p {
-		font-size: 1.75rem;
+		font-size: 1.1rem;
 		line-height: 1.2;
 
 		strong {
@@ -79,7 +82,7 @@
 	flex-direction: column;
 	flex-grow: 0;
 	flex-shrink: 1;
-	gap: var(--size-3x);
+	gap: var(--size-2x);
 	overflow: hidden;
 
 	padding: 2rem;
@@ -114,8 +117,10 @@
 		position: absolute;
 		overflow: hidden;
 		border-radius: 2rem;
-		height: calc(100% - 6rem);
-		width: calc(100% + 9rem);
+		// height: calc(100% - 6rem);
+		height: 100%;
+		// width: calc(100% + 9rem);
+		width: 100%;
 		right: 0;
 		bottom: 0;
 
@@ -123,11 +128,11 @@
 
 			> span {
 				position: absolute !important;
-				right: 4rem;
+				// right: 4rem;
 	
-				img {
-					width: calc(556px / 1.25) !important;
-				}
+				// img {
+				// 	width: calc(556px / 1.25) !important;
+				// }
 			}
 		}
 	}
@@ -277,12 +282,14 @@
 			}
 
 			.imageContainer {
-				height: 100px;
+				// height: 100px;
+				height: 18rem;
 				width: 100%;
 			}
 
 			.imageAnimationContainer {
-				height: calc(100% + 6rem);
+				// height: calc(100% + 6rem);
+				height: 100%;
 				width: 100%;
 		
 				> div > div {
@@ -295,25 +302,25 @@
 			}
 		}
 
-		&:nth-of-type(2n+1) {
+		// &:nth-of-type(2n+1) {
 			.imageAnimationContainer {
 				> div > div {
 					> span {
-						right: 2rem;
+						right: 1.5rem;
 					}
 				}
 			}
-		}
+		// }
 
-		&:nth-of-type(2n) {
-			.imageAnimationContainer {
-				> div > div {
-					> span {
-						right: 0rem;
-					}
-				}
-			}
-		}
+		// &:nth-of-type(2n) {
+		// 	.imageAnimationContainer {
+		// 		> div > div {
+		// 			> span {
+		// 				right: 2rem;
+		// 			}
+		// 		}
+		// 	}
+		// }
 	}
 	
 	.bgContainer {

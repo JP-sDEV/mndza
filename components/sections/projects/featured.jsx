@@ -15,19 +15,25 @@ export default function FeaturedProjects() {
 
 	return (
 		<Section classProp={css.hasBg}>	
-			<Container spacing={'verticalXXXXLrg'}>
-				<SectionTitle
+		<Container spacing={'verticalXXXLrg'}>
+
+		<SectionTitle
 					title="Featured Projects"
 					preTitle="UX and Full Stack"
 					subTitle="Focused on the experience, driven by the engineering."
-				/> 				{
-				content.map( (data, index) => {
-					return (
-						<FeaturedProject content={data} index={index} key={index} />
-					)
-				})
-				}
-			</Container>
+				/> 	
+
+		</Container>
+		
+		<Container spacing={'verticalStd'}>
+						{
+			content.map( (data, index) => {
+				return (
+					<FeaturedProject content={data} index={index} key={index} />
+				)
+			})
+			}
+		</Container>
 			<div className={css.bgContainer}>
 				<span className={css.orbitalBg}>
 					<span class={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroLeft} ${css.heroOrbital}`}></span></span>

@@ -30,13 +30,9 @@ export default function About() {
 				<SectionTitle
 					title="About Me"
 					preTitle="Synopsis"
-					subTitle="With a diverse skill set that includes UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I am a well-rounded digital professional."
+					subTitle="With a background in photography, advertising, design, film & music, I strive to capture the essence of an idea through whatever platform that deems the best fit. A blend of different crafts is the recipe to my process."
 				/>
-				<section className={about.content}>
-					<div className={about.image}>
-						<img src="/img/family-photo.jpg" alt="Nelson family photo"/>
-						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
-					</div>
+				{/* <section className={about.content}>
 					<div className={about.copy} >
 						<CopyBlock 
 							title="Softskills that pay the bills"
@@ -57,7 +53,7 @@ export default function About() {
 							headerIcon={`${about.icon}`}
 						/>
 					</div>
-				</section>	
+				</section>	 */}
 			</Container>
 		</Section>
 	)

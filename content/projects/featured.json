@@ -1,16 +1,14 @@
 [
 	{
-		"project": "PROJECT NAME",
+		"project": "[KiD JiRO]",
 		"url": "https://mysupplyco.com",
 		"repo": "Public",
 		"descriptionTitle": "DESCRIPTION TITLE",
-		"description": "DESCRIPTION Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa",
+		"description": "What started off as a request by my little brother to add his own character in the world of his favorite anime eventually ended up as a full design project. Originally a pencil and copic marker illustration, the design was later transformed into digital art which was drawn through Procreate. Now KiD JiRO is officially part of the Dragon Ball universe.",
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/03.png" },
-			{ "key": "mock-stack",	"hover": "right",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
-			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
+			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "1200", "url": "/img/projects/kid_jiro.jpg" }
 		],
 		"stack": [
 			{ "key": "aftereffects", 	"name": "aftereffects",	"type": "devicon" },
@@ -22,55 +20,202 @@
 			
 		]
 	},
+
 	{
-		"project": "My Supply Co.",
+		"project": "[AiR JORDAN]",
 		"url": "https://mysupplyco.com",
 		"repo": "Public",
-		"descriptionTitle": "D2C & B2B ecommerce site and blog",
-		"description": "with elegant solutions for a complex codebase and customer journey.",
+		"descriptionTitle": "DESCRIPTION TITLE",
+		"description": "Inspired by the Greatest to ever do it, these pieces signify the history of Jordan Brand and the legacy that continues to elevate and transcend the culture. A reminder to those who have forgotten about how this originally started for all of us who love the game of basketball and the iconic sneakers that our favorites showcased.",
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/03.png" },
-			{ "key": "mock-stack",	"hover": "right",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
-			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
+			{ "key": "mock-stack",	"hover": "left", 	"h": "1200", "w": "1200", "url": "/img/projects/air_jordan.png" }
 		],
 		"stack": [
-			{ "key": "photoshop", 	"name": "photoshop",	"type": "devicon" },
-			{ "key": "mysql", 		"name": "mySQL", 		"type": "devicon" },
-			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "jquery", 		"name": "jQuery", 		"type": "devicon" },
-			{ "key": "woocommerce", "name": "WooCommerce", 	"type": "devicon" },
-			{ "key": "wordpress",	"name": "Wordpress", 	"type": "devicon" },
-			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
-			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
-			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
-			{ "key": "google",		"name": "GA4/GTM/EEC", 	"type": "devicon" }
+			{ "key": "aftereffects", 	"name": "aftereffects",	"type": "devicon" },
+			{ "key": "dreamweaver",		"name": "dreamweaver", 	"type": "devicon" },
+			{ "key": "illustrator",		"name": "illustrator", 	"type": "devicon" },
+			{ "key": "photoshop",		"name": "photoshop", 	"type": "devicon" },
+			{ "key": "premierepro",		"name": "premierepro", 	"type": "devicon" },
+			{ "key": "xd",				"name": "xd", 			"type": "devicon" }
+			
 		]
 	},
+
 	{
-		"project": "andrewnelson.net",
-		"url": "https://github.com/atlamors/portfolio",
+		"project": "[MAMBA FOREVER]",
+		"url": "https://mysupplyco.com",
 		"repo": "Public",
-		"descriptionTitle": "An open source portfolio",
-		"description": "built on Next.js and React. A fast and agile MERN stack single page application.",
+		"descriptionTitle": "DESCRIPTION TITLE",
+		"description": "Inspired by his legendary 81 point performance. Kobe will always be my favorite player. The lessons he taught truly transcend the game of basketball. His impact will forever be ingrained in those who simply strive to be the best version of themselves. This piece is ultimately my tribute and appreciation for the Mamba and the moments where he showed us that the dedication to what you love will, in fullness, lead you to Greatness.",
 		"imageOptions": [
-			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "797", "w": "556",  "url": "/img/portfolio-mock_single.png" }
+			{ "key": "mock-stack",	"hover": "left", 	"h": "1200", "w": "1200", "url": "/img/projects/mamba_forever.png" }
 		],
 		"stack": [
-			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
-			{ "key": "react", 		"name": "React", 		"type": "devicon" },
-			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
-			{ "key": "mongodb", 	"name": "MongoDB", 		"type": "devicon" },
-			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
-			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
-			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
+			{ "key": "aftereffects", 	"name": "aftereffects",	"type": "devicon" },
+			{ "key": "dreamweaver",		"name": "dreamweaver", 	"type": "devicon" },
+			{ "key": "illustrator",		"name": "illustrator", 	"type": "devicon" },
+			{ "key": "photoshop",		"name": "photoshop", 	"type": "devicon" },
+			{ "key": "premierepro",		"name": "premierepro", 	"type": "devicon" },
+			{ "key": "xd",				"name": "xd", 			"type": "devicon" }
+			
+		]
+	},
+
+	{
+		"project": "[The Rose That Grew From Concrete]",
+		"url": "https://mysupplyco.com",
+		"repo": "Public",
+		"descriptionTitle": "DESCRIPTION TITLE",
+		"description": "Design Rationale: A book cover redesign inspired by Tupac’s collection of poetry entitled ‘The Rose That Grew From Concrete’. I wanted to showcase the story of Tupac through a mix of illustration and typography. Each word is specifically designed to signify the different aspects of the world of Tupac Shakur and the environment that he grew from.",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "left", 	"h": "1200", "w": "1200", "url": "/img/projects/concrete_rose.jpg" }
+		],
+		"stack": [
+			{ "key": "aftereffects", 	"name": "aftereffects",	"type": "devicon" },
+			{ "key": "dreamweaver",		"name": "dreamweaver", 	"type": "devicon" },
+			{ "key": "illustrator",		"name": "illustrator", 	"type": "devicon" },
+			{ "key": "photoshop",		"name": "photoshop", 	"type": "devicon" },
+			{ "key": "premierepro",		"name": "premierepro", 	"type": "devicon" },
+			{ "key": "xd",				"name": "xd", 			"type": "devicon" }
+			
+		]
+	},
+
+	{
+		"project": "[KEViN’S HARTS]",
+		"url": "https://mysupplyco.com",
+		"repo": "Public",
+		"descriptionTitle": "DESCRIPTION TITLE",
+		"description": "Hired on commission and given 72 hours, I was tasked to create a custom cereal box that was gifted to Kevin Hart during his 2022 “Reality Check Tour” . With a mix of digital illustration and package design, this concept was made to capture the vibrance and playful nature of his content. Inside the box was a bonus “life size Kevin Hart” figure - a playful joke that hopefully made him laugh.",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "1200", "url": "/img/projects/kevin_harts.png" }
+		],
+		"stack": [
+			{ "key": "aftereffects", 	"name": "aftereffects",	"type": "devicon" },
+			{ "key": "dreamweaver",		"name": "dreamweaver", 	"type": "devicon" },
+			{ "key": "illustrator",		"name": "illustrator", 	"type": "devicon" },
+			{ "key": "photoshop",		"name": "photoshop", 	"type": "devicon" },
+			{ "key": "premierepro",		"name": "premierepro", 	"type": "devicon" },
+			{ "key": "xd",				"name": "xd", 			"type": "devicon" }
+			
+		]
+	},
+
+	{
+		"project": "[VDL]",
+		"url": "https://mysupplyco.com",
+		"repo": "Public",
+		"descriptionTitle": "DESCRIPTION TITLE",
+		"description": "To celebrate the first official release by my friends over at Vibes Don't Lie, I created this digital illustration for the cover artwork. With the city in the background, the foreground environment is inspired by the Lakeshore Humber Campus. I aimed to capture and depict a moment where the atmosphere of the artwork matches the vibe of the music.",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "left", 	"h": "1200", "w": "1200", "url": "/img/projects/VDL.png" }
+		],
+		"stack": [
+			{ "key": "aftereffects", 	"name": "aftereffects",	"type": "devicon" },
+			{ "key": "dreamweaver",		"name": "dreamweaver", 	"type": "devicon" },
+			{ "key": "illustrator",		"name": "illustrator", 	"type": "devicon" },
+			{ "key": "photoshop",		"name": "photoshop", 	"type": "devicon" },
+			{ "key": "premierepro",		"name": "premierepro", 	"type": "devicon" },
+			{ "key": "xd",				"name": "xd", 			"type": "devicon" }
+			
+		]
+	},
+
+	{
+		"project": "[TRULY YOURS, EiGHT]",
+		"url": "https://mysupplyco.com",
+		"repo": "Public",
+		"descriptionTitle": "DESCRIPTION TITLE",
+		"description": "Truly an important time in both my creative and music career, I used one of my original photos alongside custom typography for the cover of my first mixtape. Forever one of my favorite projects, this one is a reminder of my different worlds blending together cohesively resulting in a project that feels true to myself. With a mix of music, photography, design, and writing, this project symbolizes who I am as an artist.",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "1200", "url": "/img/projects/truly_yours_eight.png" }
+		],
+		"stack": [
+			{ "key": "aftereffects", 	"name": "aftereffects",	"type": "devicon" },
+			{ "key": "dreamweaver",		"name": "dreamweaver", 	"type": "devicon" },
+			{ "key": "illustrator",		"name": "illustrator", 	"type": "devicon" },
+			{ "key": "photoshop",		"name": "photoshop", 	"type": "devicon" },
+			{ "key": "premierepro",		"name": "premierepro", 	"type": "devicon" },
+			{ "key": "xd",				"name": "xd", 			"type": "devicon" }
+			
+		]
+	},
+
+	{
+		"project": "[FLOWER BOY,T]",
+		"url": "https://mysupplyco.com",
+		"repo": "Public",
+		"descriptionTitle": "DESCRIPTION TITLE",
+		"description": "This was simply one of those albums that has heavy replay value. I created this piece as an alternate cover for Tyler, The Creator’s album ‘Flower Boy’. Containing a mix of digital illustration, graphic design, and typography, I had a great time creating this piece (while definitely listening to the album on repeat).",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "1200", "url": "/img/projects/flower_boy_t.jpg" }
+		],
+		"stack": [
+			{ "key": "aftereffects", 	"name": "aftereffects",	"type": "devicon" },
+			{ "key": "dreamweaver",		"name": "dreamweaver", 	"type": "devicon" },
+			{ "key": "illustrator",		"name": "illustrator", 	"type": "devicon" },
+			{ "key": "photoshop",		"name": "photoshop", 	"type": "devicon" },
+			{ "key": "premierepro",		"name": "premierepro", 	"type": "devicon" },
+			{ "key": "xd",				"name": "xd", 			"type": "devicon" }
+			
+		]
+	},
+
+	{
+		"project": "[DREAMER]",
+		"url": "https://mysupplyco.com",
+		"repo": "Public",
+		"descriptionTitle": "DESCRIPTION TITLE",
+		"description": "Inspired by the color palette of his latest album at the time, this digital illustration was created to celebrate and promote the release of J. Cole’s album, KOD. I aimed to pay homage to the iconic pose depicted in his previous work while having a fresh take on it that further continued his story.",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "1200", "url": "/img/projects/DREAMER.jpg" }
+		],
+		"stack": [
+			{ "key": "aftereffects", 	"name": "aftereffects",	"type": "devicon" },
+			{ "key": "dreamweaver",		"name": "dreamweaver", 	"type": "devicon" },
+			{ "key": "illustrator",		"name": "illustrator", 	"type": "devicon" },
+			{ "key": "photoshop",		"name": "photoshop", 	"type": "devicon" },
+			{ "key": "premierepro",		"name": "premierepro", 	"type": "devicon" },
+			{ "key": "xd",				"name": "xd", 			"type": "devicon" }
+			
+		]
+	},
+
+	{
+		"project": "[YE]",
+		"url": "https://mysupplyco.com",
+		"repo": "Public",
+		"descriptionTitle": "DESCRIPTION TITLE",
+		 "description": "I created this because:\n\n“I miss the old Kanye, straight from the 'Go Kanye\nChop up the soul Kanye, set on his goals Kanye”\n\nKanye will forever be an inspiration to artists across different genres. A multifaceted individual, his artistry has truly impacted and transcended the world of music and fashion. Through this digital illustration, I aimed to depict the evolution of his style through his different eras and how he has always been one of the forerunners for what is basically the ‘new’ wave. Whether it’s music or fashion, he has always been one of the few to set the ‘trends’. Though I don't always agree with his actions, his work and influence is undeniable.",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "1200", "url": "/img/projects/YE.jpg" }
+		],
+		"stack": [
+			{ "key": "aftereffects", 	"name": "aftereffects",	"type": "devicon" },
+			{ "key": "dreamweaver",		"name": "dreamweaver", 	"type": "devicon" },
+			{ "key": "illustrator",		"name": "illustrator", 	"type": "devicon" },
+			{ "key": "photoshop",		"name": "photoshop", 	"type": "devicon" },
+			{ "key": "premierepro",		"name": "premierepro", 	"type": "devicon" },
+			{ "key": "xd",				"name": "xd", 			"type": "devicon" }
+			
 		]
 	}
 ]

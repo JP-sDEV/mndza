@@ -19,8 +19,8 @@ export default function FeaturedProjects() {
 
 		<SectionTitle
 					title="Featured Projects"
-					preTitle="UX and Full Stack"
-					subTitle="Focused on the experience, driven by the engineering."
+					preTitle="Digital Advertising and Designs"
+					subTitle="Story telling through digital design."
 				/> 	
 
 		</Container>

@@ -32,7 +32,11 @@
 
 	"social": [
 		{
-			"url": "https://www.linkedin.com/in/--andrewnelson/",
+			"url": "https://www.instagram.com/008mndza/",
+			"icon": "instagram"
+		},
+		{
+			"url": "https://www.linkedin.com/in/karlomendoza8/",
 			"icon": "linkedin"
 		}
 	]

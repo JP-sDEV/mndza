@@ -11,12 +11,9 @@
 			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "1200", "url": "/img/projects/kid_jiro.jpg" }
 		],
 		"stack": [
-			{ "key": "aftereffects", 	"name": "aftereffects",	"type": "devicon" },
-			{ "key": "dreamweaver",		"name": "dreamweaver", 	"type": "devicon" },
-			{ "key": "illustrator",		"name": "illustrator", 	"type": "devicon" },
 			{ "key": "photoshop",		"name": "photoshop", 	"type": "devicon" },
-			{ "key": "premierepro",		"name": "premierepro", 	"type": "devicon" },
-			{ "key": "xd",				"name": "xd", 			"type": "devicon" }
+			{ "key": "procreate",		"name": "procreate", 	"type": "" },
+			{ "key": "Pencil & Copic Markers",		"name": "Pencil & Copic Markers", 	"type": "" }
 			
 		]
 	},
@@ -33,13 +30,8 @@
 			{ "key": "mock-stack",	"hover": "left", 	"h": "1200", "w": "1200", "url": "/img/projects/air_jordan.png" }
 		],
 		"stack": [
-			{ "key": "aftereffects", 	"name": "aftereffects",	"type": "devicon" },
-			{ "key": "dreamweaver",		"name": "dreamweaver", 	"type": "devicon" },
-			{ "key": "illustrator",		"name": "illustrator", 	"type": "devicon" },
 			{ "key": "photoshop",		"name": "photoshop", 	"type": "devicon" },
-			{ "key": "premierepro",		"name": "premierepro", 	"type": "devicon" },
-			{ "key": "xd",				"name": "xd", 			"type": "devicon" }
-			
+			{ "key": "procreate",		"name": "procreate", 	"type": "" }
 		]
 	},
 
@@ -55,12 +47,8 @@
 			{ "key": "mock-stack",	"hover": "left", 	"h": "1200", "w": "1200", "url": "/img/projects/mamba_forever.png" }
 		],
 		"stack": [
-			{ "key": "aftereffects", 	"name": "aftereffects",	"type": "devicon" },
-			{ "key": "dreamweaver",		"name": "dreamweaver", 	"type": "devicon" },
-			{ "key": "illustrator",		"name": "illustrator", 	"type": "devicon" },
 			{ "key": "photoshop",		"name": "photoshop", 	"type": "devicon" },
-			{ "key": "premierepro",		"name": "premierepro", 	"type": "devicon" },
-			{ "key": "xd",				"name": "xd", 			"type": "devicon" }
+			{ "key": "procreate",		"name": "procreate", 	"type": "" }
 			
 		]
 	},
@@ -77,13 +65,8 @@
 			{ "key": "mock-stack",	"hover": "left", 	"h": "1200", "w": "1200", "url": "/img/projects/concrete_rose.jpg" }
 		],
 		"stack": [
-			{ "key": "aftereffects", 	"name": "aftereffects",	"type": "devicon" },
-			{ "key": "dreamweaver",		"name": "dreamweaver", 	"type": "devicon" },
-			{ "key": "illustrator",		"name": "illustrator", 	"type": "devicon" },
 			{ "key": "photoshop",		"name": "photoshop", 	"type": "devicon" },
-			{ "key": "premierepro",		"name": "premierepro", 	"type": "devicon" },
-			{ "key": "xd",				"name": "xd", 			"type": "devicon" }
-			
+			{ "key": "procreate",		"name": "procreate", 	"type": "" }
 		]
 	},
 
@@ -99,12 +82,9 @@
 			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "1200", "url": "/img/projects/kevin_harts.png" }
 		],
 		"stack": [
-			{ "key": "aftereffects", 	"name": "aftereffects",	"type": "devicon" },
-			{ "key": "dreamweaver",		"name": "dreamweaver", 	"type": "devicon" },
-			{ "key": "illustrator",		"name": "illustrator", 	"type": "devicon" },
 			{ "key": "photoshop",		"name": "photoshop", 	"type": "devicon" },
-			{ "key": "premierepro",		"name": "premierepro", 	"type": "devicon" },
-			{ "key": "xd",				"name": "xd", 			"type": "devicon" }
+			{ "key": "procreate",		"name": "procreate", 	"type": "" },
+			{ "key": "indesign",		"name": "indesign", 	"type": "" }
 			
 		]
 	},
@@ -121,12 +101,8 @@
 			{ "key": "mock-stack",	"hover": "left", 	"h": "1200", "w": "1200", "url": "/img/projects/VDL.png" }
 		],
 		"stack": [
-			{ "key": "aftereffects", 	"name": "aftereffects",	"type": "devicon" },
-			{ "key": "dreamweaver",		"name": "dreamweaver", 	"type": "devicon" },
-			{ "key": "illustrator",		"name": "illustrator", 	"type": "devicon" },
 			{ "key": "photoshop",		"name": "photoshop", 	"type": "devicon" },
-			{ "key": "premierepro",		"name": "premierepro", 	"type": "devicon" },
-			{ "key": "xd",				"name": "xd", 			"type": "devicon" }
+			{ "key": "procreate",		"name": "procreate", 	"type": "" }
 			
 		]
 	},
@@ -143,12 +119,9 @@
 			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "1200", "url": "/img/projects/truly_yours_eight.png" }
 		],
 		"stack": [
-			{ "key": "aftereffects", 	"name": "aftereffects",	"type": "devicon" },
-			{ "key": "dreamweaver",		"name": "dreamweaver", 	"type": "devicon" },
-			{ "key": "illustrator",		"name": "illustrator", 	"type": "devicon" },
 			{ "key": "photoshop",		"name": "photoshop", 	"type": "devicon" },
-			{ "key": "premierepro",		"name": "premierepro", 	"type": "devicon" },
-			{ "key": "xd",				"name": "xd", 			"type": "devicon" }
+			{ "key": "lightroom",		"name": "lightroom", 	"type": "" },
+			{ "key": "fuji-film xt-10",		"name": "fuji-film xt-10", 	"type": "" }
 			
 		]
 	},
@@ -165,13 +138,8 @@
 			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "1200", "url": "/img/projects/flower_boy_t.jpg" }
 		],
 		"stack": [
-			{ "key": "aftereffects", 	"name": "aftereffects",	"type": "devicon" },
-			{ "key": "dreamweaver",		"name": "dreamweaver", 	"type": "devicon" },
-			{ "key": "illustrator",		"name": "illustrator", 	"type": "devicon" },
 			{ "key": "photoshop",		"name": "photoshop", 	"type": "devicon" },
-			{ "key": "premierepro",		"name": "premierepro", 	"type": "devicon" },
-			{ "key": "xd",				"name": "xd", 			"type": "devicon" }
-			
+			{ "key": "procreate",		"name": "procreate", 	"type": "" }
 		]
 	},
 
@@ -187,12 +155,8 @@
 			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "1200", "url": "/img/projects/DREAMER.jpg" }
 		],
 		"stack": [
-			{ "key": "aftereffects", 	"name": "aftereffects",	"type": "devicon" },
-			{ "key": "dreamweaver",		"name": "dreamweaver", 	"type": "devicon" },
-			{ "key": "illustrator",		"name": "illustrator", 	"type": "devicon" },
 			{ "key": "photoshop",		"name": "photoshop", 	"type": "devicon" },
-			{ "key": "premierepro",		"name": "premierepro", 	"type": "devicon" },
-			{ "key": "xd",				"name": "xd", 			"type": "devicon" }
+			{ "key": "procreate",		"name": "procreate", 	"type": "" }
 			
 		]
 	},
@@ -209,12 +173,8 @@
 			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "1200", "url": "/img/projects/YE.jpg" }
 		],
 		"stack": [
-			{ "key": "aftereffects", 	"name": "aftereffects",	"type": "devicon" },
-			{ "key": "dreamweaver",		"name": "dreamweaver", 	"type": "devicon" },
-			{ "key": "illustrator",		"name": "illustrator", 	"type": "devicon" },
 			{ "key": "photoshop",		"name": "photoshop", 	"type": "devicon" },
-			{ "key": "premierepro",		"name": "premierepro", 	"type": "devicon" },
-			{ "key": "xd",				"name": "xd", 			"type": "devicon" }
+			{ "key": "procreate",		"name": "procreate", 	"type": "" }
 			
 		]
 	}

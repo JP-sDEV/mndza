@@ -8,7 +8,7 @@
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "1200", "url": "/img/projects/kid_jiro.jpg" }
+			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "1200", "url": "/img/projects/kid_jiro.png" }
 		],
 		"stack": [
 			{ "key": "photoshop",		"name": "photoshop", 	"type": "devicon" },

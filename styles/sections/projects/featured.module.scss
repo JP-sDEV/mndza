@@ -117,9 +117,7 @@
 		position: absolute;
 		overflow: hidden;
 		border-radius: 2rem;
-		// height: calc(100% - 6rem);
 		height: 100%;
-		// width: calc(100% + 9rem);
 		width: 100%;
 		right: 0;
 		bottom: 0;
@@ -128,11 +126,6 @@
 
 			> span {
 				position: absolute !important;
-				// right: 4rem;
-	
-				// img {
-				// 	width: calc(556px / 1.25) !important;
-				// }
 			}
 		}
 	}
@@ -326,25 +319,37 @@
 
 .modalContent {
 	position: relative;
-	background: --center;
-	padding: 20px;
-	border-radius: 8px;
-	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 }
 
+.imageWrapper {
+	position: relative;
+	display: inline-block;
+}
 .closeButton {
-	margin-top: 20px;
-	padding: 10px 20px;
-	background-color: #f44336;
+	position: absolute;
+	top: 0.25vh;
+	right: 0.25vw;
+	z-index: 10;
+
+	font-size: 20px;
+	background: rgba(0, 0, 0, 0.6);
 	color: white;
 	border: none;
-	border-radius: 4px;
+	border-radius: 50%;
+	width: 32px;
+	height: 32px;
 	cursor: pointer;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	transition: background 0.2s ease;
 }
 
 .closeButton:hover {
-	background-color: #d32f2f;
+	background: rgba(244, 67, 54, 0.8);
 }

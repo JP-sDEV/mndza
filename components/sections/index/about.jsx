@@ -23,14 +23,14 @@ import about from '../../../styles/sections/index/about.module.scss';
  * 
  * @returns {jsx} <About />
  */
-export default function About() {
+export default function About({aboutText}) {
 	return (
 		<Section classProp={about.section}>	
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
 					title="About Me"
 					preTitle="Synopsis"
-					subTitle="With a background in photography, advertising, design, film & music, I strive to capture the essence of an idea through whatever platform that deems the best fit. A blend of different crafts is the recipe to my process."
+					subTitle={aboutText ? aboutText : ""}
 				/>
 				{/* <section className={about.content}>
 					<div className={about.copy} >

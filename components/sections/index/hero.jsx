@@ -26,7 +26,7 @@ import content		from '../../../content/index/hero.json'
  *   Load this module onto every component, and use predefined spacial classes to keep geometry consistent
  */
 
-export default function Hero() {
+export default function Hero({ landingParagraph }) {
 
 	const [typingStatus, setTypingStatus] = useState('Initializing');
 
@@ -60,7 +60,8 @@ export default function Hero() {
 				</section>
 				<section>
 					<p className={`${hero.primaryBright} subtitle ${space(["verticalLrg"])}`}>
-						{ content.paragraph }
+						{/* { content.paragraph } */}
+						{landingParagraph}
 					</p>					
 				</section>
 				<section>

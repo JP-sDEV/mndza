@@ -30,7 +30,8 @@ export async function getStaticProps() {
           landingParagraph: null,
           metadata: null,
           error: true
-        }
+        },
+        revalidate: 60,
       };
     }
   

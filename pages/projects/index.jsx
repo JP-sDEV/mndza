@@ -33,7 +33,7 @@ export async function getStaticProps() {
         projects: projects,
         error: false
       },
-      // revalidate: 60,
+      revalidate: 60,
     };
 
   } catch (err) {

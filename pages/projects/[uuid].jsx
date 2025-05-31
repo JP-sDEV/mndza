@@ -14,20 +14,38 @@ import colors from '../../content/projects/_colors.json'
 import Carousel from '../../components/utils/carousel.util'
 
 export async function getStaticPaths() {
-  const res = await fetch(`${process.env.CMS_API_URL}/api/projects?populate=*`);
-  const data = await res.json();
+  try {
+    const res = await fetch(`${process.env.CMS_API_URL}/api/projects?populate=*`);
 
-  const paths = data.data.map((project) => (
-	{
-    params: { uuid: project.uuid.toString() }, 
-  	}
-));
+    if (!res.ok) {
+      throw new Error(`Failed to fetch projects: ${res.status} ${res.statusText}`);
+    }
 
-  return {
-    paths,
-    fallback: 'blocking', // or 'true' if you want a loading state
-  };
+    const data = await res.json();
+
+    if (!data?.data || !Array.isArray(data.data)) {
+      throw new Error("Invalid data structure returned from API");
+    }
+
+    const paths = data.data.map((project) => ({
+      params: { uuid: project.uuid.toString() },
+    }));
+
+    return {
+      paths,
+      fallback: 'blocking',
+    };
+  } catch (error) {
+    console.error("Error in getStaticPaths:", error);
+
+    // Optionally: return an empty paths array to prevent build failure
+    return {
+      paths: [],
+      fallback: 'blocking',
+    };
+  }
 }
+
 
 export async function getStaticProps({ params }) {
 	const res = await fetch(

@@ -1,3 +1,5 @@
+import { normalizeProject } from '../../lib/normalizeProject'
+
 // Sections
 import FeaturedProjects from '../../components/sections/projects/featured'
 
@@ -10,9 +12,8 @@ import colors from '../../content/projects/_colors.json'
 
 export async function getStaticProps() {
   try {
-    const res = await fetch(`${process.env.CMS_API_URL}/api/projects?populate[medias][populate]=*`);
-
-    if (!res.ok) {
+    const projectRes = await fetch(`${process.env.CMS_API_URL}/api/projects?populate[medias][populate]=*`);
+    if (!projectRes.ok) {
       return {
         props: {
           projects: null,
@@ -21,10 +22,15 @@ export async function getStaticProps() {
       };
     }
 
-    const data = await res.json();
+    const projectData = await projectRes.json();
+    const projects = projectData.data.map((project, i) => {
+        const norm = normalizeProject(project);
+        return norm;
+      });
+
     return {
       props: {
-        projects: data,
+        projects: projects,
         error: false
       },
       // revalidate: 60,

@@ -22,8 +22,6 @@ export default function FeaturedProjects({ projects, error }) {
     	return <div>Loading projects...</div>;
   	}
 	
-
-
 	return (
 		<Section classProp={css.hasBg}>	
 		<Container spacing={'verticalXXXLrg'}>

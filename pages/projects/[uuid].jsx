@@ -27,7 +27,9 @@ export async function getStaticPaths() {
       throw new Error("Invalid data structure returned from API");
     }
 
-    const paths = data.data.map((project) => ({
+    const paths = data.data
+    .filter((project) => project?.uuid) // Skip if uuid is missing
+    .map((project) => ({
       params: { uuid: project.uuid.toString() },
     }));
 
@@ -53,11 +55,11 @@ export async function getStaticProps({ params }) {
   );
   const data = await res.json();
   
-  const projects = data.data.map((project, i) => {
-      const norm = normalizeProject(project);
-      return norm;
-    });
+  if (!data || !Array.isArray(data.data) || data.data.length === 0) {
+    return { notFound: true };
+  }
 
+  const projects = data.data.map((project, i) => normalizeProject(project));
 
   if (!data || !data.data ||data.data.length == 0 ) {
     return {

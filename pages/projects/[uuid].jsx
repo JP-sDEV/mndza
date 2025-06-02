@@ -82,26 +82,23 @@ export default function ProjectPage({ project }) {
     return (
         <>
         <Color colors={colors} />
-        
         <Section classProp={css.hasBg}>	
-
           <Container spacing={'verticalXXLrg'}>
-
           <SectionTitle
                 title={project.title}
               />
-
           </Container>
-		
           <Container spacing={['verticalXL','bottomLrg']}>
-            <Carousel media={project.medias.map((media) => ({
-            url: media.url?.startsWith('/')
-              ? `http://localhost:1337${media.url}`
-              : media.url,
-          }))} />
-
+            <Carousel
+              media={project.medias.map((media) => ({
+                url: media.url?.startsWith('/')
+                  ? `http://localhost:1337${media.url}`
+                  : media.url,
+                width: media?.width,     
+                height: media?.height,
+              }))}
+            />
           </Container>
-
           <Container spacing={'bottomLrg'}>
               {project.description}
           </Container>

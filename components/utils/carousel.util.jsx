@@ -107,17 +107,34 @@ export default function Carousel({ media = [] }) {
           >
             <X size={24} />
           </button>
-          <div className={styles.modalContent}>
+         <div className={styles.modalContent}>
+          {current.width && current.height ? (
             <Image
+              key={current.url}
               src={current.url}
-              alt={`Full ${currentIndex + 1}`}
-              layout="intrinsic"
-              width={1200}
-              height={800}
-              className={styles.modalImage}
+              alt={`Slide ${currentIndex + 1}`}
+              width={current.width}
+              height={current.height}
+              objectFit="cover"
+              className={styles.media}
+              priority
             />
-          </div>
+          ) : (
+            <div className={styles.imageWrapper}>
+              <Image
+                key={current.url}
+                src={current.url}
+                alt={`Slide ${currentIndex + 1}`}
+                layout="fill"
+                objectFit="cover"
+                className={styles.media}
+                priority
+              />
+            </div>
+          )}
         </div>
+
+      </div>
       )}
     </>
   );

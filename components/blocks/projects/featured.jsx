@@ -35,7 +35,8 @@ export default function FeaturedProject({ content }, index) {
 						case "file":
 						return (
 							<Image
-							src={media.url}
+							// src={media.url}
+							src={process.env.NODE_ENV === "development" ? `http://localhost:1337${media.url}` : media.url}
 							alt="project image"
 							width={media.width || 800}
 							height={media.height || 600}

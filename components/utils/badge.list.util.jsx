@@ -70,7 +70,7 @@ export default function Badges({ list, block, color, fullContainer }) {
 					className={`${badges.item} ${key}`}
 					//Animations
 					variants={item} >
-					<IconModule iconKey={key} iconType={type} color={color}/>
+					<IconModule iconKey={name} iconType="devicon" color={color}/>
 					<span className={badges.title}>{name}</span>
 				</m.li> 
 				)

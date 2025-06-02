@@ -19,12 +19,12 @@ export default function FeaturedProject({ content }, index) {
 						<p className={css.description}>{content.description}</p>
 					</div>
 					<div className={css.stackContainer}>
-						{/* <Badges list={stack} block="stack" fullContainer={false} color={false} /> */}
+						<Badges list={content.tools} block="stack" fullContainer={false} color={false} />
 					</div>
 				</div>
 			</div>
 
-			<div className={css.imageContainer}>
+			<m.div className={css.imageContainer}>
 				<span className={`${css.imageAnimationContainer}`}>
 
 					{content.medias && content.medias.length > 0 ? (() => {
@@ -94,7 +94,7 @@ export default function FeaturedProject({ content }, index) {
 						/>
 						)}
 				</span>
-			</div>
+			</m.div>
 		</m.section>
 	);
 }

@@ -12,6 +12,7 @@ import settings from '../../content/_settings.json'
 import colors from '../../content/projects/_colors.json'
 
 import Carousel from '../../components/utils/carousel.util'
+import Badges from '../../components/utils/badge.list.util'
 
 export async function getStaticPaths() {
   try {
@@ -51,7 +52,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
 	const res = await fetch(
-    `${process.env.CMS_API_URL}/api/projects?filters[uuid][$eq]=${params.uuid}&populate[medias][populate]=*`
+    `${process.env.CMS_API_URL}/api/projects?filters[uuid][$eq]=${params.uuid}&populate[medias][populate]=*&populate[tools][populate]=*`
   );
   const data = await res.json();
   
@@ -98,6 +99,10 @@ export default function ProjectPage({ project }) {
                 height: media?.height,
               }))}
             />
+            <div className={css.toolContainer}>
+              <Badges list={project.tools} block="stack" fullContainer={false} color={false} />
+            </div>
+
           </Container>
           <Container spacing={'bottomLrg'}>
               {project.description}

@@ -31,7 +31,8 @@ export async function getStaticProps() {
           metadata: null,
           error: true
         },
-        revalidate: 60,
+        // revalidate: 60,
+        revalidate: false
       };
     }
   
@@ -58,6 +59,7 @@ export async function getStaticProps() {
         error: false
       },
       // revalidate: 60,
+      revalidate: false,
     };
 
   } catch (err) {

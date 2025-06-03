@@ -63,14 +63,14 @@ export default function Badges({ list, block, color, fullContainer }) {
 				whileHover="hover"
 		>
 		{
-		list.map( ({ key, name, type }) => {
+		list.map( ({ key, name }) => {
 			return ( 
 				<m.li 
 					key={name} 
 					className={`${badges.item} ${key}`}
 					//Animations
 					variants={item} >
-					<IconModule iconKey={name} iconType="devicon" color={color}/>
+					<IconModule iconKey={key} iconType="devicon" color={color}/>
 					<span className={badges.title}>{name}</span>
 				</m.li> 
 				)

@@ -17,7 +17,7 @@ import colors 		from '../content/index/_colors.json'
 
 export async function getStaticProps() {
   try {
-    const projectRes = await fetch(`${process.env.CMS_API_URL}/api/projects?populate[medias][populate]=*&populate[tools][populate]=*`);
+    const projectRes = await fetch(`${process.env.CMS_API_URL}/api/projects?populate[medias][populate]=*&populate[tools][populate]=*&sort=order:asc`);
     const aboutRes = await fetch(`${process.env.CMS_API_URL}/api/about-me`);
     const landingRes = await fetch(`${process.env.CMS_API_URL}/api/description`)
     const metadataRes = await fetch(`${process.env.CMS_API_URL}/api/metadatas?populate[tags][populate]=*`);

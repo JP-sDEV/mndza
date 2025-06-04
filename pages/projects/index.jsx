@@ -12,7 +12,7 @@ import colors from '../../content/projects/_colors.json'
 
 export async function getStaticProps() {
   try {
-    const projectRes = await fetch(`${process.env.CMS_API_URL}/api/projects?populate[medias][populate]=*`);
+    const projectRes = await fetch(`${process.env.CMS_API_URL}/api/projects?populate[medias][populate]=*&sort=order:asc`);
     if (!projectRes.ok) {
       return {
         props: {

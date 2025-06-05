@@ -1,21 +1,23 @@
 import Image from "next/image";
 import { ChevronLeft, ChevronRight, Maximize, X } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 import styles from "../../styles/utils/carousel.module.scss";
 
 export default function Carousel({ media = [] }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const prev = () =>
+  const prev = useCallback(() => {
     setCurrentIndex((prevIndex) =>
       prevIndex === 0 ? media.length - 1 : prevIndex - 1
     );
+  }, [media.length]);
 
-  const next = () =>
+  const next = useCallback(() => {
     setCurrentIndex((prevIndex) =>
       prevIndex === media.length - 1 ? 0 : prevIndex + 1
     );
+  }, [media.length]);
 
   const current = media[currentIndex];
 
@@ -27,6 +29,29 @@ export default function Carousel({ media = [] }) {
     const match = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&?/]+)/);
     return match ? match[1] : null;
   };
+
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (!isModalOpen) return;
+
+      switch (e.key) {
+        case "ArrowLeft":
+          prev();
+          break;
+        case "ArrowRight":
+          next();
+          break;
+        case "Escape":
+          setIsModalOpen(false);
+          break;
+        default:
+          break;
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [isModalOpen, prev, next]);
 
   return (
     <>
@@ -99,7 +124,7 @@ export default function Carousel({ media = [] }) {
       </div>
 
       {/* Modal */}
-      {isModalOpen && !isVideo(current.url) && !isYoutube(current.url) && (
+      {/* {isModalOpen && !isVideo(current.url) && !isYoutube(current.url) && (
         <div className={styles.modal}>
           <button
             className={styles.closeButton}
@@ -135,7 +160,64 @@ export default function Carousel({ media = [] }) {
         </div>
 
       </div>
+      )} */}
+
+      {isModalOpen && !isVideo(current.url) && !isYoutube(current.url) && (
+  <div className={styles.modal}>
+    <button
+      className={styles.closeButton}
+      onClick={() => setIsModalOpen(false)}
+    >
+      <X size={24} />
+    </button>
+
+    {/* Navigation buttons in modal */}
+    {media.length > 1 && (
+      <>
+        <button
+          onClick={prev}
+          className={`${styles.navButton} ${styles.left} ${styles.modalNav}`}
+        >
+          <ChevronLeft />
+        </button>
+        <button
+          onClick={next}
+          className={`${styles.navButton} ${styles.right} ${styles.modalNav}`}
+        >
+          <ChevronRight />
+        </button>
+      </>
+    )}
+
+    <div className={styles.modalContent}>
+      {current.width && current.height ? (
+        <Image
+          key={current.url}
+          src={current.url}
+          alt={`Slide ${currentIndex + 1}`}
+          width={current.width}
+          height={current.height}
+          objectFit="cover"
+          className={styles.media}
+          priority
+        />
+      ) : (
+        <div className={styles.imageWrapper}>
+          <Image
+            key={current.url}
+            src={current.url}
+            alt={`Slide ${currentIndex + 1}`}
+            layout="fill"
+            objectFit="cover"
+            className={styles.media}
+            priority
+          />
+        </div>
       )}
+    </div>
+  </div>
+)}
+
     </>
   );
 }

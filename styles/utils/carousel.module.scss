@@ -118,3 +118,23 @@
     border-radius: 0.5rem;
   }
 }
+
+.modalNav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: white;
+
+  &.left {
+    left: 1rem;
+  }
+
+  &.right {
+    right: 1rem;
+  }
+}

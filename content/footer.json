@@ -1,24 +1,19 @@
 {
 	"acknowledgments": [
 		{ 
-			"person": "Jihad Hassan - Marketing Director",
-			"link": "",
-			"note": "Thank you for all the advice and feedback."
-		},
-		{ 
-			"person": "Colorpong - Artist",
-			"link": "ttps://www.youworkforthem.com/designer/536/colorpong?aff=1115",
-			"note": "Checkout their amazing vector illustrations."
-		},
-		{ 
-			"person": "Brittany Chiang - Software Engineer",
-			"link": "https://brittanychiang.com/",
-			"note": "A major inspiration to create an open source theme."
+			"person": "Jon Pablo - Software Developer",
+			"link": "https://www.linkedin.com/in/jon-pablo-66747b164/",
+			"note": "If you'd like to collaborate or connect, feel free to reach out."
 		},
 		{ 
 			"person": "Vercel - Platform",
 			"link": "https://vercel.com/docs",
 			"note": "Host your own Next.js project for free!"
+		},
+		{ 
+			"person": "Andrew Nelson - Original Site Creator",
+			"link": "https://github.com/atlamors",
+			"note": ""
 		}
 	],
 

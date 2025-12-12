@@ -32,12 +32,7 @@ export default function SetTheme() {
 		}
 	}
 
-	const defaultTheme = () => {
-		const themeLocalStorage = localStorage.getItem('theme')
-		const themeSystem       = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
-
-		return ( themeLocalStorage ?? themeSystem )
-	}
+	const defaultTheme = () => 'dark'
 
 	useEffect( () => {
 
